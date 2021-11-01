@@ -7,13 +7,17 @@ public class MyBot {
 
     public MyBot() {
         knowledge.put("Hi", "Hello... how am i help you!");
-        knowledge.put("Hello", "Hi yo");
+        knowledge.put("Hello", "Hi yo...how am i help you!");
         knowledge.put("how are you?", "Great! And you?");
+        knowledge.put("good morning", "I am not connected to wheather app");
+        knowledge.put("good night", "");
+        knowledge.put("good","\uD83D\uDE0A ");
+        knowledge.put("fine", "\uD83D\uDE0A ");
         knowledge.put("what time is it", "Look at your watch!");
         knowledge.put("sathish", "creator of this app");
         knowledge.put("mathan", "creator of this app");
         knowledge.put("ahmad", "creator of this app");
-        knowledge.put("", "");  // to add knowledge to this bot
+        knowledge.put("", "Interact with the bot");  // to add knowledge to this bot
         knowledge.put("", "");
         knowledge.put("", "");
     }
